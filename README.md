@@ -42,9 +42,32 @@ run the migrations with `rails db:migrate`
 
 Open a Terminal and run `rails c` to open the console for Rails.
 
-Create the Users, Posts and Comments using the model methods.
+Create the Users, Posts and Comments using the model methods:
 
-Test the relationships between the models to confirm that they are connected!
+
+#### Users
+
+To create a user, perform the following step:
+
+`user = User.create(username: "Alex", email: "alex@gmail.com")`
+
+This will create a user with id 1.
+
+#### Posts
+
+To create a post, perform the following step:
+
+`post = Post.create(title: "Programming is nice", body: "Reasons why...", user_id: 1)`
+
+This will create a post with id 1 that belongs to the user with id 1.
+
+#### Comments
+
+To create a comment, perform the following step:
+
+`comment = Comment.create(message: "Programming is sure a nice thing!", user_id: 1, post_id: 1)`
+
+This will create a comment with id 1 that belongs to the user with id 1 and to the post with id 1.
 
 
 ## Authors
