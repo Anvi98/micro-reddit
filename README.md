@@ -1,24 +1,82 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Building with Active Record Project
 
-Things you may want to cover:
+> In this project we learned about Active Record in Rails and Migrations, Validations and Associations for a User, Post and Comment models.
 
-* Ruby version
+Additional description about the project and its features.
 
-* System dependencies
+## Built With
 
-* Configuration
+- Git
+- Github
+- VSCode
+- Ruby
+- Rails
+- Terminal
+- Mac OSX
+- Linux
+- SQLite3
+- GitFlow
+- Pair-programming
 
-* Database creation
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+To get a local copy up and running follow these simple example steps.
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+### Setup
 
-* ...
+Install/use Ruby with version 3.0.0
+
+Install Rails 
+
+### Install
+
+clone the project with `git@github.com:arthurborgesdev/micro-reddit.git`
+
+run the migrations with `rails db:migrate`
+
+### Usage
+
+Open a Terminal and run `rails c` to open the console for Rails.
+
+Create the Users, Posts and Comments using the model methods.
+
+Test the relationships between the models to confirm that they are connected!
+
+
+## Authors
+
+👤 **Arthur Borges**
+
+- GitHub: [@arthurborgesdev](https://github.com/arthurborgesdev)
+- Twitter: [@arthurmoises](https://twitter.com/arthurmoises)
+- LinkedIn: [Arthur Borges](https://linkedin.com/in/arthurmoises)
+
+👤 **Alex Eponon**
+
+- GitHub: [@Anvi98](https://github.com/Anvi98)
+- Twitter: [@anvi_al](https://twitter.com/anvi_al)
+- LinkedIn: [Alex Eponon](https://www.linkedin.com/in/anvi-alex-eponon/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- The Odin Project
+- Rails API
+- Rails Guides
+
+## 📝 License
+
+This project is [MIT](/LICENSE) licensed.
